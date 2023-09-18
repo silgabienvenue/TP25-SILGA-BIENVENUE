@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+ }
+ header{
+     width: 100%;
+
+ }
+ /* navbar ************************/
+ 
+ nav{
+     width: 100%;
+     display: flex;
+     background-color: green;
+     position: fixed;
+ }
+ nav ul{
+     display: flex;
+     width: 100%;
+     height: 50px;
+     padding: 20px;
+     justify-content: center;
+ }
+ nav ul li{
+     list-style: none;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: white;
+     padding: 30px;
+     font-size: 20px;
+ }
+ .navbar img{
+     width: 70px;
+     height: 70px;
+ }
+ /* ********************* */
+ .blog{
+    width: 100%;
+}
+.blog .blocs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.blog .blocs .blocus img{
+   width: 350px;
+   height: 220px;
+}
+.blog .blocs .blocus h6{
+  background-color: red;
+  width: 100px;
+  color: white;
+  padding: 5px;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  border-radius: 5px;
+}
+.blog .blocs .blocus h6 strong{
+  font-size: 17px;
+}
+.blog .blocs .blocus h5{
+  font-size: 15px;
+}
+.blog .blocs .blocus p{
+  font-size: 15px;
+  opacity: 70%;
+}
+.blog .blocs .blocus small{
+  opacity: 50%;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.blog .bloc{
+    background-color: white;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.blog .bloc .card{
+    display: flex;
+    margin-bottom: 10px;
+}
+.blog .bloc .card .text{
+   font-size: 20px;
+   width: 300px;
+
+}
+.blog .bloc .card a{
+   font-size: 20px;
+   width: 250px;
+    text-decoration: none;
+    color:rgb(75, 58, 88);
+    font-weight: 600;
+}
+
+.blog img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+/* ******************************** */
+.blogger{
+    width: 90%;
+    justify-content: center;  
+}
+.blogger .plants{
+margin-left: 100px;
+background-color: greenyellow;
+}
+.blogger .plant{
+ display: flex;
+ flex-direction: row;
+}
+.blogger .plant .bloc-text{
+width: 200px;
+}
+
+.blogger img{
+    width: 170px;
+    height: 150px;
+}

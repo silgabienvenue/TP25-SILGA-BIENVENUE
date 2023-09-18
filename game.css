@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+ }
+ header{
+     background-color: green;
+     position: fixed;
+ }
+ /* navbar ************************/
+ 
+ nav{
+     width: 100%;
+     display: flex;
+ }
+ nav ul{
+     display: flex;
+     /* width: 80%; */
+     height: 50px;
+     padding: 20px;
+     justify-content: center;
+ }
+ nav ul li{
+     list-style: none;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: white;
+     padding: 30px;
+     font-size: 20px;
+ }
+ .navbar img{
+     width: 70px;
+     height: 70px;
+ }
+ 
+ h2{
+     text-align: center;
+     color: yellowgreen;
+     margin: 50px;
+ }
+ /* *************** */
+ /* bionat5*/
+.bionat{
+    padding: 50px;
+    }
+   
+    .bionat .class-E{
+        display: flex;
+        justify-content: center;
+    }
+    .bionat .mets{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+    }
+    .bionat .mets i{
+       color: green;
+       margin-right: 5px;
+       font-size: 30px;
+    }
+       
+    .bionat .mets strong{
+       color: red;
+    }
+    .bionat button{
+        color: #000;
+        font-size: 15px;
+        border-radius: 20px;
+        width: 100px;
+        padding: 5px;
+        background-color: yellow;
+    }
+    
+    .bionat .class-E .card {
+        margin: 30px;
+        border: 1px;
+        border-radius: 20px;
+    }
+    .bionat .class-E .card img{
+        width: 200px;
+        height: 150px;
+    }
+    .bionat .class-E .card text{
+        font-size: 20px;
+    }
+    /* ************************************ */
+    .com{
+        width: 95%;
+    }
+    .com .card-group{
+       margin-left: 100px;
+       background-color: yellowgreen;
+    }
+    .com .card-group .card{
+       margin: 10px
+    }
+    .com .card-group em{
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .com .card-group button{
+      width: 120px;
+      background-color: green;
+      color: white;
+      font-size: 20px;
+    }
+    .com .card-group .card img{
+      width: 200px;
+      height: 200px;
+    }
+ /***********************************/
+ .new{
+    justify-content: center;
+ }
+.new .para{
+   margin-left: 300px;
+}
+.new .card-group .card{
+   border: none;
+}   
+.new .card-group .card p{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.new .card-group .card img{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    padding:20px;
+}
+.new .card-group .card .N{
+    height: 50px;
+ } 
+.new .card-group .card .P{
+    height: 75px;
+ } 
+.new .card-group .card .M{
+    height: 100px;
+ } 

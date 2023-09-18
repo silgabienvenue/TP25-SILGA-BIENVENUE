@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+ }
+ header{
+     background-color: green;
+     position: fixed;
+ }
+ /* navbar ************************/
+ 
+ nav{
+     width: 100%;
+     display: flex;
+ }
+ nav ul{
+     display: flex;
+     /* width: 80%; */
+     height: 50px;
+     padding: 20px;
+     justify-content: center;
+ }
+ nav ul li{
+     list-style: none;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: white;
+     padding: 30px;
+     font-size: 20px;
+ }
+ .navbar img{
+     width: 70px;
+     height: 70px;
+ }
+ /* *************************** */
+ .prof{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+ .row{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+.t-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    text-align: left;
+    background-color: turquoise;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.t-col img{
+    height: 80px;
+    width: 80px;
+    margin: 0 5px 0 30px;
+    border-radius: 70px;
+}
+.t-col p{
+    padding: 0;
+}
+.t-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.t-col .bi{
+    color: orangered;
+}
+/*  */
+/*section-4*/
+.search{
+    background-color:grey;
+    padding: 100px;
+}
+.search .para{
+   margin-left: 300px;
+   color: white;
+}
+.search .card-group .card{
+   border: none;
+   margin: 20px;
+}   
+.search .card-group .card h3{
+    color: #00000065;
+   font-weight: 200px;
+}
+.search .card-group .card p{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.search .card-group .card img{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+.search .card-group .card .card-body .icon{
+    margin-left: 200px;
+    
+}
+.search .card-group .card .card-body .icon span{
+    font-size: 30px;
+}
+.search .card-group .card .card-body .yt{
+    color: red;
+}
+.search .card-group .card .card-body .twit{
+    color:rgb(70, 109, 70);
+}
+.search .card-group .card .card-body .face{
+    color:blue;
+}
+/* *************************** */
+.focus{
+    width: 95%;
+    display: flex;
+}
+.focus .photos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.focus .photos img{
+    width: 220px;
+    height: 180px;
+}
+.focus .photos img:hover{
+    box-shadow: 50px 50px 50px;
+}
+ .focus .photos img .img-1{
+    width: 220px;
+    height: 180px;
+    top: 10px;
+   z-index: 1;
+} 
+.focus .photos img .img-2{
+   position: relative;
+   width: 220px;
+    height: 180px;
+   z-index: 2;
+   bottom: 10px;
+} 
+.focus .photo img .img-3{
+   position: absolute;
+   z-index: 1;
+}
+.focus .photo img .img-4{
+   position: relative;
+   z-index: 1;
+   top: 10px;
+}
+
+.focus .bloc-text{
+    padding: 10px;
+    line-height: 30px;
+}
+.focus .bloc-text h3{
+    padding: 10px;
+   font-size: 25px;
+   justify-content: center;
+}
+.focus .bloc-text p{
+    font-size: 17px;
+    width: 500px;
+}
+.focus .bloc-text ul{
+    line-height: 35px;
+}
+.focus .bloc-text ul li{
+    list-style: none;
+   font-size: 20px;
+}
+.focus .bloc-text ul i{
+   color: green;
+   font-size: 30px;
+}
+.focus .bloc-text button{
+   background-color: green;
+   font-size: 15px;
+   margin: 20px;
+   padding: 10px;
+   color: white;
+}
